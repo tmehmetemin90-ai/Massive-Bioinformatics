@@ -1,0 +1,11 @@
+name: bioinfo_case
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.13
+  - pandas
+  - biopython
+  - matplotlib
+  - seaborn
+  - snakemake
