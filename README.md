@@ -113,11 +113,11 @@ snakemake --cores 1
 
 The pipeline generates the following outputs:
 results/
- read_stats.csv
- read_length_distribution.png
- gc_content_distribution.png
- quality_distribution.png
- summary_statistics.txt
+read_stats.csv
+read_length_distribution.png
+gc_content_distribution.png
+quality_distribution.png
+summary_statistics.txt
 
 Author
 
