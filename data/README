@@ -1,0 +1,4 @@
+Place the FASTQ input file in this directory.
+
+Example:
+data/barcode77.fastq
