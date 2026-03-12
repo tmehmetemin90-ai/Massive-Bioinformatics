@@ -1,6 +1,4 @@
-# Massive-Bioinformatics
-A pipeline for internship case study.
-# Mini Bioinformatics QC Pipeline For Massive Bioinformatics
+# Mini Bioinformatics QC Pipeline
 
 ## Project Overview
 
