@@ -129,14 +129,14 @@ snakemake --cores 1
 ## Output Files
 
 The pipeline generates the following outputs:
-
+```text
 results/
 ├── read_stats.csv
 ├── read_length_distribution.png
 ├── gc_content_distribution.png
 ├── quality_distribution.png
 └── summary_statistics.txt
-
+```
 Author
 
 Pipeline developed as part of a bioinformatics internship case study.
