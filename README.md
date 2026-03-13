@@ -94,17 +94,21 @@ To verify the correctness of the generated metrics and visualizations, the datas
 
 
 ## How to Run the Pipeline
+Place the FASTQ file `barcode77.fastq` inside the `data/` folder.
 
-### 1. Create the Conda Environment
+### 1. Open Anaconda Prompt
+Launch Anaconda Prompt from the Start Menu.
 
+### 2. Navigate to the project folder
+cd path/to/massive_bioinformatics_project #Use your folder path
+
+### 3.Create environment
 conda env create -f environment.yml
 
-### 2. Activate the Environment
-
+### 4.Activate environment
 conda activate bioinfo_case
 
-### 3. Run the Pipeline
-
+### 5.Run pipeline
 snakemake --cores 1
 
 ## Output Files
