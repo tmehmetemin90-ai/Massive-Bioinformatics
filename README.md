@@ -116,7 +116,7 @@ Launch Anaconda Prompt from the Start Menu.
 
 ### 2. Navigate to the project folder
 cd path/to/massive_bioinformatics_project 
-NOTE:Replace with your actual folder path.
+-NOTE:Replace with your actual folder path.
 
 ### 3.Create environment
 conda env create -f environment.yml
