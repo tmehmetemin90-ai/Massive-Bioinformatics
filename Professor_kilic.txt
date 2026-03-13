@@ -1,0 +1,19 @@
+
+Dear Professor Kılıç,
+
+I analyzed the provided FASTQ file to evaluate the overall quality of the sequencing reads before proceeding with alignment. To do this, I built a small reproducible workflow that calculates several key statistics and visualizes their distributions.
+
+The analysis focused on three main metrics: read length, GC content, and mean read quality.
+
+The read length distribution shows many shorter reads with a smaller number of longer reads forming a long tail. This pattern is usual for long-read sequencing datasets and does not indicate a problem with the data.
+
+The GC content distribution appears approximately normally distributed and centered around ~55%, suggesting that there is no strong GC bias in the sequencing data.
+
+The mean read quality scores mostly present between 10 and 30. While this is lower than what is typically seen in short-read technologies such as Illumina, it is expected for long-read sequencing platforms.
+
+Overall, the dataset does not show any major quality issues and appears suitable for downstream analysis. Based on these observations, I would recommend proceeding with the alignment step.
+
+Please let me know if you would like additional summaries, questions or visualizations.
+
+Best regards,
+Mehmet Emin TEKİN
