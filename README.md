@@ -107,8 +107,8 @@ To verify the correctness of the generated metrics and visualizations, the datas
 
 ## How to Run the Pipeline
 Place the FASTQ file `barcode77.fastq` inside the `data/` folder.
-Note:  
-The pipeline expects the input file to be named `barcode77.fastq` 
+
+NOTE:The pipeline expects the input file to be named `barcode77.fastq` 
 and placed inside the `data/` directory.
 
 ### 1. Open Anaconda Prompt
