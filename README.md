@@ -8,6 +8,16 @@ The pipeline processes a FASTQ file, calculates basic read statistics, generates
 
 The goal is to provide an accessible summary of sequencing data quality before proceeding to downstream analysis such as alignment.
 
+## Project Structure
+
+Project/
+├── data/
+│   └── barcode77.fastq
+├── results/
+├── scripts/
+├── Snakefile
+├── environment.yml
+└── README.md
 
 ## Pipeline Overview
 
@@ -95,6 +105,9 @@ To verify the correctness of the generated metrics and visualizations, the datas
 
 ## How to Run the Pipeline
 Place the FASTQ file `barcode77.fastq` inside the `data/` folder.
+Note:  
+The pipeline expects the input file to be named `barcode77.fastq` 
+and placed inside the `data/` directory.
 
 ### 1. Open Anaconda Prompt
 Launch Anaconda Prompt from the Start Menu.
@@ -115,12 +128,12 @@ snakemake --cores 1
 
 The pipeline generates the following outputs:
 
-- results/
-- read_stats.csv
-- read_length_distribution.png
-- gc_content_distribution.png
-- quality_distribution.png
-- summary_statistics.txt
+results/
+├── read_stats.csv
+├── read_length_distribution.png
+├── gc_content_distribution.png
+├── quality_distribution.png
+└── summary_statistics.txt
 
 Author
 
