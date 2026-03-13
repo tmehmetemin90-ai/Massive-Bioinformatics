@@ -10,6 +10,7 @@ The goal is to provide an accessible summary of sequencing data quality before p
 
 ## Project Structure
 
+```text
 Project/
 ├── data/
 │   └── barcode77.fastq
@@ -18,6 +19,7 @@ Project/
 ├── Snakefile
 ├── environment.yml
 └── README.md
+```
 
 ## Pipeline Overview
 
